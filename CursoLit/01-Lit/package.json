@@ -1,0 +1,17 @@
+{
+  "name": "cursolit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "web-dev-server --node-resolve --open --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lit": "^2.2.7"
+  },
+  "devDependencies": {
+    "@web/dev-server": "^0.1.32"
+  }
+}
