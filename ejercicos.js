@@ -27,6 +27,7 @@ const promise2 = () => {
 // Promise.all([promise2(), promise1()]).then((result) => { console.log(result); })
 
 
+/* Comparing the sum of 0.2 and 0.1 with 0.3. */
 console.log(0.2 + 0.1 === 0.3);
 
 

@@ -21,6 +21,11 @@ export class MyApp extends LitElement {
     handleClick(){
         this.object.myProp='New Value'
     }
+    /**
+     * The render function returns a template literal that contains a string, a variable, and an event
+     * listener
+     * @returns A template literal with a string and a variable.
+     */
     render() {
         return html`Hola mundo desde el js
         <h2>${this.object.myProp}</h2>
